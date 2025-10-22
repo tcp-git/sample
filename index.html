@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <div class="wrap">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="#">
+                        <svg class="logo-svg" width="40" height="32" viewBox="0 0 53 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M37.5 27.0752C37.5 20.4478 32.1274 15.0752 25.5 15.0752H15.5V27.0752H25.5V42.0752H37.5V27.0752Z"></path>
+                            <path d="M0.5 28.0752C0.500001 35.8072 6.76801 42.0752 14.5 42.0752L22.5 42.0752L22.5 30.0752H14.5C13.3954 30.0752 12.5 29.1798 12.5 28.0752V27.0752L0.5 27.0752L0.5 28.0752Z"></path>
+                            <path d="M25.5 0.0751953C40.4117 0.0751953 52.5 12.1635 52.5 27.0752V42.0752H40.5V27.0752C40.5 18.7909 33.7843 12.0752 25.5 12.0752H14.5C13.3954 12.0752 12.5 12.9706 12.5 14.0752V15.0752H0.500001V14.0752C0.500002 6.34321 6.76802 0.0751953 14.5 0.0751953H25.5Z"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <ul class="menu">
+                    <li><a href="#">หน้าหลัก</a></li>
+                    <li><a href="#">สินค้า</a></li>
+                    <li><a href="#">โปรไฟล์</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="content">
+        <!-- Hero Section -->
+        <section class="section hero-section">
+            <div class="wrap">
+                <div class="card hero">
+                    <div class="hero-text">
+                        <h1>ช้อปปิ้งสินค้าคุณภาพจาก FakeStore</h1>
+                        <p class="lead">ค้นพบสินค้าหลากหลายหมวดหมู่ ทั้งแฟชั่น, อิเล็กทรอนิกส์, ของตกแต่ง และอื่นๆ</p>
+                        <a href="#product-list" class="content-btn">เริ่มช้อปเลย</a>
+                    </div>
+                    <div class="hero-img">
+                          <img src="img/store-icon.png" alt="Store" width="200" height="400">
+                  </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="wrap">
+            <div class="content-title">
+                <h3>แสดงรายการสินค้า</h3>
+            </div>
+            <div class="content-con" id="product-list">
+                <!-- สินค้าจะ render ที่นี่ -->
+            </div>
+            <div class="pagination" id="pagination"></div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
