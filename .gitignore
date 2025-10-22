@@ -1,0 +1,45 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Node (if used)
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build / dist
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Mac / Linux swap
+*~
+*.swp
+
+# Images or large assets that you don't want in git (optional)
+img/*.png
+img/*.jpg
+img/*.jpeg
+img/*.gif
+
+# OS generated files
+.DS_Store
+
+
+app copy.js
