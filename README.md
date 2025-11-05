@@ -8,7 +8,7 @@
 ## 📸 ตัวอย่างหน้าจอ
 
 > *(เพิ่มภาพสกรีนช็อตได้ที่นี่ เช่น `screenshot.png`)*  
-> ![Fake Store Screenshot](img/store-icon.png)
+> ![Fake Store Screenshot](screenshot.png)
 
 ---
 
